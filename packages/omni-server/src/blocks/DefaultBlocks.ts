@@ -52,6 +52,7 @@ import { RunRecipeComponent } from './DefaultBlocks/run_recipe.js';
 import  PasswordInputComponent from './DefaultBlocks/masked_input.js';
 import { HuggingfaceListModelsComponent } from './DefaultBlocks/hf_get_models.js';
 import { GetRecipesComponent } from './DefaultBlocks/get_recipes.js';
+import { LatentSyncVideoLipSyncComponent } from './DefaultBlocks/latentsync_video_lipsync.js';
 
 const blocks = [];
 blocks.push(BooleanInputBlock);
@@ -104,6 +105,7 @@ blocks.push(RunRecipeComponent);
 blocks.push(HuggingfaceListModelsComponent);
 blocks.push(GetRecipesComponent);
 blocks.push(WriteFilesToDirectoryComponent);
+blocks.push(LatentSyncVideoLipSyncComponent);
 
 const OmniDefaultBlocks = blocks;
 export { OmniDefaultBlocks };
